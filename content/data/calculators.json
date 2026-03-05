@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "ai-writing-tool-roi-calculator",
+    "title": "AI Writing Tool ROI Calculator",
+    "tool": "writing",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "chatgpt-team-cost-calculator",
+    "title": "ChatGPT Team Cost Calculator",
+    "tool": "chatgpt",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "jasper-cost-calculator",
+    "title": "Jasper Cost Calculator",
+    "tool": "jasper",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "copy-ai-cost-calculator",
+    "title": "Copy.ai Cost Calculator",
+    "tool": "copy-ai",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "writesonic-cost-calculator",
+    "title": "Writesonic Cost Calculator",
+    "tool": "writesonic",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "rytr-cost-calculator",
+    "title": "Rytr Cost Calculator",
+    "tool": "rytr",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "grammarly-team-roi-calculator",
+    "title": "Grammarly Team ROI Calculator",
+    "tool": "grammarly",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "surfer-seo-roi-calculator",
+    "title": "Surfer SEO ROI Calculator",
+    "tool": "surfer",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "frase-roi-calculator",
+    "title": "Frase ROI Calculator",
+    "tool": "frase",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "agency-ai-stack-roi-calculator",
+    "title": "Agency AI Stack ROI Calculator",
+    "tool": "agency",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "content-team-ai-budget-calculator",
+    "title": "Content Team AI Budget Calculator",
+    "tool": "team",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  },
+  {
+    "slug": "ai-tool-break-even-calculator",
+    "title": "AI Tool Break-even Calculator",
+    "tool": "generic",
+    "defaultInputs": {
+      "users": 3,
+      "monthlyToolCost": 99,
+      "hoursSavedPerUser": 12,
+      "hourlyRate": 45,
+      "setupHours": 8,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 15
+    }
+  }
+]

@@ -11,7 +11,7 @@ export default function Home() {
         <p className="muted">Model cost, savings, payback, and break-even before you commit to any subscription.</p>
         <div className="ctaRow">
           <Link className="btn" href="/pricing">See Pricing</Link>
-          <Link className="btn" href="/audit">Book ROI Audit</Link>
+          <Link className="btn" href="/audit">Request Free Review</Link>
           <Link className="btn" href="/toolkit">Get Toolkit</Link>
         </div>
       </section>

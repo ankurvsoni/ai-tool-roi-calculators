@@ -15,6 +15,7 @@ export default async function Page({ params }) {
   return (
     <main className="wrap">
       <Link href="/">← Back to all calculators</Link>
+      <div className="box"><strong>What this calculator helps with</strong><p className="muted" style={{marginTop:8}}>{c.description}</p></div>
       <CalculatorClient title={c.title} defaults={c.defaultInputs} />
 
       <div className="box">

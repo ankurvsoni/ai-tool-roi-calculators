@@ -11,7 +11,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Estimate whether an AI writing tool saves more money than it costs for your monthly content workflow."
   },
   {
     "slug": "chatgpt-team-cost-calculator",
@@ -25,7 +26,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Calculate total ChatGPT team cost and compare it against expected time savings from faster drafting and research."
   },
   {
     "slug": "jasper-cost-calculator",
@@ -39,7 +41,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Estimate Jasper subscription cost against productivity gains for campaigns, landing pages, and long-form content."
   },
   {
     "slug": "copy-ai-cost-calculator",
@@ -53,7 +56,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Check if Copy.ai delivers positive ROI for your content volume, team size, and writing speed goals."
   },
   {
     "slug": "writesonic-cost-calculator",
@@ -67,7 +71,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Model Writesonic cost versus saved hours for blog, SEO, and marketing content workflows."
   },
   {
     "slug": "rytr-cost-calculator",
@@ -81,7 +86,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "See if Rytr is a budget-positive choice for solopreneurs and small teams with recurring content needs."
   },
   {
     "slug": "grammarly-team-roi-calculator",
@@ -95,7 +101,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Measure the ROI of Grammarly for editing speed, quality control, and reduced revision cycles."
   },
   {
     "slug": "surfer-seo-roi-calculator",
@@ -109,7 +116,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Estimate whether Surfer-driven optimization improves output enough to justify monthly SEO tooling spend."
   },
   {
     "slug": "frase-roi-calculator",
@@ -123,7 +131,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Model Frase ROI by comparing research/briefing time saved against subscription cost."
   },
   {
     "slug": "agency-ai-stack-roi-calculator",
@@ -137,7 +146,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Calculate full agency stack ROI across multiple tools, users, and client output requirements."
   },
   {
     "slug": "content-team-ai-budget-calculator",
@@ -151,7 +161,8 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Plan a realistic monthly AI budget for a content team and test best/base/worst-case outcomes."
   },
   {
     "slug": "ai-tool-break-even-calculator",
@@ -165,6 +176,7 @@
       "setupHours": 8,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "description": "Find how many outputs or saved hours are required each month to break even on a tool purchase."
   }
 ]

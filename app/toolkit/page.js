@@ -1,5 +1,20 @@
 import { PAYMENT_LINKS } from '@/lib/paymentLinks';
 
 export default function Toolkit(){
-  return <main className="wrap"><h1>AI ROI Toolkit</h1><div className="box"><p className="muted">Includes ROI spreadsheet, assumptions library, stakeholder pitch deck outline, and 14-day pilot checklist.</p><ul><li>Spreadsheet template (editable CSV)</li><li>Role-based assumptions library</li><li>Decision memo template</li><li>Pilot checklist + stakeholder deck outline</li></ul><a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $19 and Access Toolkit</a></div><div className="success">Instant access after payment. If you face any delivery issue, contact support and we’ll resolve it quickly.</div></main>
+  return <main className="wrap"><h1>AI ROI Toolkit</h1>
+  <div className="box">
+    <p className="muted">A practical toolkit to help you make confident AI software decisions without guesswork.</p>
+    <ul>
+      <li>ROI calculator template (ready for Google Sheets)</li>
+      <li>Assumptions library with role-based benchmarks</li>
+      <li>Role presets (creator, freelancer, agency, growth team)</li>
+      <li>Implementation cost planner</li>
+      <li>KPI tracker template for weekly monitoring</li>
+      <li>Decision memo + stakeholder deck outline</li>
+      <li>14-day pilot checklist + quickstart guide</li>
+    </ul>
+    <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $19 and Access Toolkit</a>
+  </div>
+  <div className="success">Designed for immediate use: most buyers can run their first ROI scenario in under 15 minutes.</div>
+  </main>
 }

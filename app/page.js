@@ -22,7 +22,7 @@ export default function Home() {
         {calculators.map(c => (
           <Link key={c.slug} href={`/calculators/${c.slug}`} className="card">
             <h3>{c.title}</h3>
-            <p className="muted">{c.slug.replaceAll('-', ' ')}</p>
+            <p className="muted">{c.description}</p>
             <span className="badge">Calculator</span>
           </Link>
         ))}

@@ -1,6 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 import { computeROI } from '@/lib/formulas';
+import { PAYMENT_LINKS } from '@/lib/paymentLinks';
 
 export default function CalculatorClient({ title, defaults }) {
   const [v, setV] = useState(defaults);
@@ -55,8 +56,8 @@ export default function CalculatorClient({ title, defaults }) {
         <strong>Recommended next action</strong>
         <p className="muted">Run this with your real last-30-day numbers, then compare 2 implementation paths.</p>
         <div style={{display:'flex',gap:10,flexWrap:'wrap',marginTop:8}}>
-          <a className="btn" href="/audit">Get ROI Audit ($79+)</a>
-          <a className="btn" href="/toolkit">Get ROI Toolkit ($19)</a>
+          <a className="btn" href={PAYMENT_LINKS.starter} target="_blank" rel="noopener noreferrer">Pay & Book Starter Audit ($79)</a>
+          <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay & Get ROI Toolkit ($19)</a>
           <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
         </div>
       </div>

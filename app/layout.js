@@ -2,7 +2,7 @@ import './globals.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'OrkoLabs ROI Calculators',
+  title: 'Orko Labs ROI Calculators',
   description: 'AI tool cost and ROI calculators with transparent assumptions.'
 };
 
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="wrap nav">
-          <Link href="/" className="brand">OrkoLabs ROI</Link>
+          <Link href="/" className="brand">Orko Labs ROI</Link>
           <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
             <Link href="/methodology">Methodology</Link>
             <Link href="/disclaimer">Disclaimer</Link>

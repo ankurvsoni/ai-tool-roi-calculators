@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CalculatorPage",
+  "type": "object",
+  "required": ["slug", "title", "tool", "category", "inputs", "formula", "outputs"],
+  "properties": {
+    "slug": {"type": "string"},
+    "title": {"type": "string"},
+    "tool": {"type": "string"},
+    "category": {"type": "string", "enum": ["calculator","comparison","guide","template"]},
+    "intent": {"type": "string"},
+    "inputs": {"type": "array", "items": {"type": "object"}},
+    "formula": {"type": "string"},
+    "outputs": {"type": "array", "items": {"type": "string"}},
+    "assumptions": {"type": "array", "items": {"type": "string"}}
+  }
+}

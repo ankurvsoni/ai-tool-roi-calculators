@@ -7,15 +7,28 @@ export async function generateStaticParams() {
   return getCalculators().map((c) => ({ slug: c.slug }));
 }
 
+export async function generateMetadata({ params }) {
+  const c = getCalculator(params.slug);
+  if (!c) return {};
+  return {
+    title: c.seoTitle || c.title,
+    description: c.metaDescription || c.description,
+  };
+}
+
 export default async function Page({ params }) {
   const c = getCalculator(params.slug);
   if (!c) return notFound();
-  const related = getCalculators().filter(x => x.slug !== c.slug).slice(0,3);
+  const related = getCalculators().filter((x) => x.slug !== c.slug).slice(0, 3);
 
   return (
     <main className="wrap">
       <Link href="/">← Back to all calculators</Link>
-      <div className="box"><strong>What this calculator helps with</strong><p className="muted" style={{marginTop:8}}>{c.description}</p></div>
+      <div className="box">
+        <strong>What this calculator helps with</strong>
+        <p className="muted" style={{ marginTop: 8 }}>{c.description}</p>
+      </div>
+
       <CalculatorClient title={c.title} defaults={c.defaultInputs} />
 
       <div className="box">
@@ -24,9 +37,21 @@ export default async function Page({ params }) {
       </div>
 
       <div className="box">
+        <h3>FAQ</h3>
+        {(c.faq || []).map((f, i) => (
+          <div key={i} style={{ marginBottom: 10 }}>
+            <strong>{f.q}</strong>
+            <p className="muted" style={{ marginTop: 4 }}>{f.a}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="box">
         <h3>Related calculators</h3>
         <div className="grid">
-          {related.map(r => <Link key={r.slug} className="card" href={`/calculators/${r.slug}`}>{r.title}</Link>)}
+          {related.map((r) => (
+            <Link key={r.slug} className="card" href={`/calculators/${r.slug}`}>{r.title}</Link>
+          ))}
         </div>
       </div>
 

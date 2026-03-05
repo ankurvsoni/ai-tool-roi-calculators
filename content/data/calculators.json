@@ -12,7 +12,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Estimate whether an AI writing tool saves more money than it costs for your monthly content workflow."
+    "description": "Estimate whether an AI writing tool saves more money than it costs for your monthly content workflow.",
+    "seoTitle": "AI Writing Tool ROI Calculator",
+    "metaDescription": "Estimate monthly savings and break-even for AI writing tools using your own team data.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "chatgpt-team-cost-calculator",
@@ -27,7 +39,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Calculate total ChatGPT team cost and compare it against expected time savings from faster drafting and research."
+    "description": "Calculate total ChatGPT team cost and compare it against expected time savings from faster drafting and research.",
+    "seoTitle": "ChatGPT Team Cost Calculator",
+    "metaDescription": "Calculate ChatGPT team cost, expected time savings, and practical ROI scenarios.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "jasper-cost-calculator",
@@ -42,7 +66,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Estimate Jasper subscription cost against productivity gains for campaigns, landing pages, and long-form content."
+    "description": "Estimate Jasper subscription cost against productivity gains for campaigns, landing pages, and long-form content.",
+    "seoTitle": "Jasper Cost Calculator",
+    "metaDescription": "Model Jasper cost vs productivity gains and find your break-even point.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "copy-ai-cost-calculator",
@@ -57,7 +93,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Check if Copy.ai delivers positive ROI for your content volume, team size, and writing speed goals."
+    "description": "Check if Copy.ai delivers positive ROI for your content volume, team size, and writing speed goals.",
+    "seoTitle": "Copy.ai Cost Calculator",
+    "metaDescription": "Estimate Copy.ai ROI from team size, hours saved, and monthly tool spend.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "writesonic-cost-calculator",
@@ -72,7 +120,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Model Writesonic cost versus saved hours for blog, SEO, and marketing content workflows."
+    "description": "Model Writesonic cost versus saved hours for blog, SEO, and marketing content workflows.",
+    "seoTitle": "Writesonic Cost Calculator",
+    "metaDescription": "Calculate Writesonic ROI for blog, SEO, and campaign production workflows.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "rytr-cost-calculator",
@@ -87,7 +147,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "See if Rytr is a budget-positive choice for solopreneurs and small teams with recurring content needs."
+    "description": "See if Rytr is a budget-positive choice for solopreneurs and small teams with recurring content needs.",
+    "seoTitle": "Rytr Cost Calculator",
+    "metaDescription": "Check whether Rytr is a cost-positive choice for your monthly content output.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "grammarly-team-roi-calculator",
@@ -102,7 +174,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Measure the ROI of Grammarly for editing speed, quality control, and reduced revision cycles."
+    "description": "Measure the ROI of Grammarly for editing speed, quality control, and reduced revision cycles.",
+    "seoTitle": "Grammarly Team ROI Calculator",
+    "metaDescription": "Estimate Grammarly ROI from editing time saved and fewer revision cycles.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "surfer-seo-roi-calculator",
@@ -117,7 +201,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Estimate whether Surfer-driven optimization improves output enough to justify monthly SEO tooling spend."
+    "description": "Estimate whether Surfer-driven optimization improves output enough to justify monthly SEO tooling spend.",
+    "seoTitle": "Surfer SEO ROI Calculator",
+    "metaDescription": "Model Surfer SEO ROI based on optimization speed and output improvements.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "frase-roi-calculator",
@@ -132,7 +228,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Model Frase ROI by comparing research/briefing time saved against subscription cost."
+    "description": "Model Frase ROI by comparing research/briefing time saved against subscription cost.",
+    "seoTitle": "Frase ROI Calculator",
+    "metaDescription": "Estimate Frase ROI from research time savings and content brief efficiency.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "agency-ai-stack-roi-calculator",
@@ -147,7 +255,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Calculate full agency stack ROI across multiple tools, users, and client output requirements."
+    "description": "Calculate full agency stack ROI across multiple tools, users, and client output requirements.",
+    "seoTitle": "Agency AI Stack ROI Calculator",
+    "metaDescription": "Calculate full agency AI stack ROI across tools, seats, and delivery volume.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "content-team-ai-budget-calculator",
@@ -162,7 +282,19 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Plan a realistic monthly AI budget for a content team and test best/base/worst-case outcomes."
+    "description": "Plan a realistic monthly AI budget for a content team and test best/base/worst-case outcomes.",
+    "seoTitle": "Content Team AI Budget Calculator",
+    "metaDescription": "Plan a realistic monthly AI budget for a content team and test best/base/worst-case outcomes.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   },
   {
     "slug": "ai-tool-break-even-calculator",
@@ -177,6 +309,18 @@
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
-    "description": "Find how many outputs or saved hours are required each month to break even on a tool purchase."
+    "description": "Find how many outputs or saved hours are required each month to break even on a tool purchase.",
+    "seoTitle": "AI Tool Break-even Calculator",
+    "metaDescription": "Find how many outputs or saved hours are required each month to break even on a tool purchase.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning tool based on your inputs. Use conservative, base, and aggressive scenarios before deciding."
+      },
+      {
+        "q": "Should I use annual pricing in this model?",
+        "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
+      }
+    ]
   }
 ]

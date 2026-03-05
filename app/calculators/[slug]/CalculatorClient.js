@@ -62,7 +62,7 @@ export default function CalculatorClient({ title, defaults }) {
         </div>
       </div>
 
-      <div className="notice">No affiliate links required. Monetization is through audits + toolkit product.</div>
+      <div className="notice">Want a tailored next step? Request a free ROI review or get the toolkit for self-serve planning.</div>
     </>
   );
 }

@@ -4,13 +4,30 @@ import { computeROI } from '@/lib/formulas';
 
 export default function CalculatorClient({ title, defaults }) {
   const [v, setV] = useState(defaults);
-  const r = useMemo(() => computeROI(v), [v]);
+  const [scenario, setScenario] = useState('base');
+
+  const adjusted = useMemo(() => {
+    const mult = scenario === 'conservative' ? 0.7 : scenario === 'aggressive' ? 1.3 : 1;
+    return { ...v, hoursSavedPerUser: Number((v.hoursSavedPerUser * mult).toFixed(2)) };
+  }, [v, scenario]);
+
+  const r = useMemo(() => computeROI(adjusted), [adjusted]);
   const f = (k) => (e) => setV({ ...v, [k]: Number(e.target.value || 0) });
+
+  const verdict = r.roiPercent > 150 ? 'Strong positive ROI' : r.roiPercent > 30 ? 'Promising ROI' : 'Marginal ROI — test before committing';
+  const summary = `${title}: ${verdict}. Monthly savings $${r.monthlySavings.toFixed(0)}, ROI ${r.roiPercent.toFixed(1)}%, payback ${r.paybackMonths.toFixed(1)} months.`;
 
   return (
     <>
       <div className="box">
-        <h2>{title}</h2>
+        <h1 style={{marginTop:0}}>{title}</h1>
+        <p className="muted">Adjust your inputs and scenario assumptions to get a realistic ROI view.</p>
+        <label>Scenario</label>
+        <select value={scenario} onChange={(e)=>setScenario(e.target.value)}>
+          <option value="conservative">Conservative (70% savings)</option>
+          <option value="base">Base case</option>
+          <option value="aggressive">Aggressive (130% savings)</option>
+        </select>
         <div className="row">
           <div>
             <label>Users</label><input type="number" value={v.users} onChange={f('users')} />
@@ -30,6 +47,14 @@ export default function CalculatorClient({ title, defaults }) {
         <div className="box"><div className="muted">ROI %</div><div className="kpi">{r.roiPercent.toFixed(1)}%</div></div>
         <div className="box"><div className="muted">Payback Period</div><div className="kpi">{r.paybackMonths.toFixed(1)} mo</div></div>
         <div className="box"><div className="muted">Break-even Outputs</div><div className="kpi">{r.breakEvenOutputs.toFixed(0)}</div></div>
+      </div>
+
+      <div className="success" style={{marginTop:12}}>{verdict}</div>
+
+      <div className="box">
+        <strong>Recommended next action</strong>
+        <p className="muted">Run this with your real last-30-day numbers, then compare 2 vendor options before annual billing.</p>
+        <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
       </div>
     </>
   );

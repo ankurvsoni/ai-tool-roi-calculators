@@ -1,0 +1,4 @@
+tool,current_monthly_cost,business_criticality,adoption_score,output_quality_score,recommendation,reason,next_action
+Example Tool A,299,High,8,7,Keep,Strong fit and adoption,Optimize workflow
+Example Tool B,99,Low,3,4,Drop,Low utilization and weak quality,Sunset in 30 days
+Example Tool C,149,Medium,5,6,Replace,Better alternatives available,Pilot replacement tool

@@ -55,8 +55,8 @@ export default function CalculatorClient({ title, defaults }) {
         <strong>Recommended next action</strong>
         <p className="muted">Run this with your real last-30-day numbers, then compare 2 implementation paths.</p>
         <div style={{display:'flex',gap:10,flexWrap:'wrap',marginTop:8}}>
-          <a className="btn" href="/audit">Get ROI Audit ($149+)</a>
-          <a className="btn" href="/toolkit">Get ROI Toolkit ($29)</a>
+          <a className="btn" href="/audit">Get ROI Audit ($199+)</a>
+          <a className="btn" href="/toolkit">Get ROI Toolkit ($49)</a>
           <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
         </div>
       </div>

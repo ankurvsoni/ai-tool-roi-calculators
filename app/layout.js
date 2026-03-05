@@ -13,6 +13,9 @@ export default function RootLayout({ children }) {
         <div className="wrap nav">
           <Link href="/" className="brand">Orko Labs ROI</Link>
           <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
+            <Link href="/pricing">Pricing</Link>
+            <Link href="/audit">Audit</Link>
+            <Link href="/toolkit">Toolkit</Link>
             <Link href="/methodology">Methodology</Link>
             <Link href="/disclaimer">Disclaimer</Link>
             <a href="https://www.orkolabs.com">All Projects</a>

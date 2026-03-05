@@ -1,0 +1,3 @@
+export default function Toolkit(){
+  return <main className="wrap"><h1>AI ROI Toolkit</h1><div className="box"><p className="muted">Includes ROI spreadsheet, assumptions library, stakeholder pitch deck, and 14-day pilot checklist.</p><ul><li>Spreadsheet template (editable)</li><li>Role-based ROI presets</li><li>Decision memo template</li><li>Pilot scoring sheet</li></ul><button className="btn" type="button">Buy Toolkit ($29)</button></div><div className="notice">Checkout wiring placeholder. Next step: Stripe payment link integration.</div></main>
+}

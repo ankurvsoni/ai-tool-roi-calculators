@@ -53,9 +53,15 @@ export default function CalculatorClient({ title, defaults }) {
 
       <div className="box">
         <strong>Recommended next action</strong>
-        <p className="muted">Run this with your real last-30-day numbers, then compare 2 vendor options before annual billing.</p>
-        <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
+        <p className="muted">Run this with your real last-30-day numbers, then compare 2 implementation paths.</p>
+        <div style={{display:'flex',gap:10,flexWrap:'wrap',marginTop:8}}>
+          <a className="btn" href="/audit">Get ROI Audit ($149+)</a>
+          <a className="btn" href="/toolkit">Get ROI Toolkit ($29)</a>
+          <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
+        </div>
       </div>
+
+      <div className="notice">No affiliate links required. Monetization is through audits + toolkit product.</div>
     </>
   );
 }

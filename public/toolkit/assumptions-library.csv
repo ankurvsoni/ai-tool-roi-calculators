@@ -1,0 +1,6 @@
+role,low_hours_saved,base_hours_saved,high_hours_saved,hourly_rate_low,hourly_rate_base,hourly_rate_high
+solo_creator,4,8,14,25,40,60
+freelancer,5,10,16,30,50,75
+small_marketing_team,4,9,15,35,55,80
+agency_content_team,6,12,20,40,65,95
+saas_marketing_team,5,11,18,45,70,100

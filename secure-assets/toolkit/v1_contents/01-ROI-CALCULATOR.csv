@@ -1,0 +1,12 @@
+field,example_value,what_it_means
+team_size,5,How many people will use the tool
+monthly_tool_cost,49,Total monthly subscription cost
+hours_saved_per_person_per_month,8,Time saved per person per month
+blended_hourly_rate,40,Average hourly value of team time
+one_time_setup_hours,6,Initial setup/onboarding time
+extra_monthly_costs,0,Any additional recurring costs
+
+output,formula,plain_english
+monthly_savings,(team_size*hours_saved_per_person_per_month*blended_hourly_rate)-(monthly_tool_cost+extra_monthly_costs),How much money you save monthly after paying for the tool
+roi_percent,(monthly_savings/(monthly_tool_cost+extra_monthly_costs))*100,Return on your monthly tool spend
+payback_months,(one_time_setup_hours*blended_hourly_rate)/MAX(monthly_savings,1),How quickly setup effort pays back

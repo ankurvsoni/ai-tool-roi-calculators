@@ -13,7 +13,7 @@ export default function Toolkit(){
       <li>Decision memo + stakeholder deck outline</li>
       <li>14-day pilot checklist + quickstart guide</li>
     </ul>
-    <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $19 and Access Toolkit</a>
+    <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $10 and Access Toolkit</a>
   </div>
   <div className="success">Secure access: after payment, you’ll be redirected to a verified download page.</div>
   </main>

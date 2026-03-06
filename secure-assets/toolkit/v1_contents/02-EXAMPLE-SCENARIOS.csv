@@ -1,0 +1,4 @@
+scenario,team_size,monthly_tool_cost,hours_saved_per_person,hourly_rate,monthly_savings,roi_percent
+Conservative,3,49,4,35,371,757
+Base,5,49,8,40,1551,3165
+Aggressive,8,99,12,55,5181,5233

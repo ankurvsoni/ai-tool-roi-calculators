@@ -1,0 +1,6 @@
+task,owner,effort_hours,target_date,status
+Select primary use case,Marketing Lead,1,,
+Set baseline metrics,Ops,2,,
+Create prompt/template pack,Content Lead,4,,
+Run 14-day pilot,Team,10,,
+Review KPI outcomes,Founder,2,,

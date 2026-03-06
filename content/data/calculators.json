@@ -4,13 +4,13 @@
     "title": "AI Writing Tool ROI Calculator",
     "tool": "writing",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
+      "users": 4,
+      "monthlyToolCost": 120,
+      "hoursSavedPerUser": 8,
       "hourlyRate": 45,
-      "setupHours": 8,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 14
     },
     "description": "Estimate whether an AI writing tool saves more money than it costs for your monthly content workflow.",
     "seoTitle": "AI Writing Tool ROI Calculator",
@@ -34,13 +34,13 @@
     "title": "ChatGPT Team Cost Calculator",
     "tool": "chatgpt",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
+      "users": 5,
+      "monthlyToolCost": 150,
+      "hoursSavedPerUser": 10,
       "hourlyRate": 45,
-      "setupHours": 8,
+      "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 14
     },
     "description": "Calculate total ChatGPT team cost and compare it against expected time savings from faster drafting and research.",
     "seoTitle": "ChatGPT Team Cost Calculator",
@@ -65,12 +65,12 @@
     "tool": "jasper",
     "defaultInputs": {
       "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "monthlyToolCost": 207,
+      "hoursSavedPerUser": 9,
+      "hourlyRate": 50,
+      "setupHours": 7,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 16
     },
     "description": "Estimate Jasper subscription cost against productivity gains for campaigns, landing pages, and long-form content.",
     "seoTitle": "Jasper Cost Calculator",
@@ -95,12 +95,12 @@
     "tool": "copy-ai",
     "defaultInputs": {
       "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
+      "monthlyToolCost": 87,
+      "hoursSavedPerUser": 8,
       "hourlyRate": 45,
-      "setupHours": 8,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 13
     },
     "description": "Check if Copy.ai delivers positive ROI for your content volume, team size, and writing speed goals.",
     "seoTitle": "Copy.ai Cost Calculator",
@@ -125,10 +125,10 @@
     "tool": "writesonic",
     "defaultInputs": {
       "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "monthlyToolCost": 147,
+      "hoursSavedPerUser": 9,
+      "hourlyRate": 48,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
     },
@@ -154,13 +154,13 @@
     "title": "Rytr Cost Calculator",
     "tool": "rytr",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "users": 2,
+      "monthlyToolCost": 18,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 40,
+      "setupHours": 4,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 10
     },
     "description": "See if Rytr is a budget-positive choice for solopreneurs and small teams with recurring content needs.",
     "seoTitle": "Rytr Cost Calculator",
@@ -184,13 +184,13 @@
     "title": "Grammarly Team ROI Calculator",
     "tool": "grammarly",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "users": 5,
+      "monthlyToolCost": 75,
+      "hoursSavedPerUser": 4,
+      "hourlyRate": 42,
+      "setupHours": 3,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 8
     },
     "description": "Measure the ROI of Grammarly for editing speed, quality control, and reduced revision cycles.",
     "seoTitle": "Grammarly Team ROI Calculator",
@@ -214,13 +214,13 @@
     "title": "Surfer SEO ROI Calculator",
     "tool": "surfer",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "users": 2,
+      "monthlyToolCost": 178,
+      "hoursSavedPerUser": 8,
+      "hourlyRate": 55,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 18
     },
     "description": "Estimate whether Surfer-driven optimization improves output enough to justify monthly SEO tooling spend.",
     "seoTitle": "Surfer SEO ROI Calculator",
@@ -244,13 +244,13 @@
     "title": "Frase ROI Calculator",
     "tool": "frase",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
+      "users": 2,
+      "monthlyToolCost": 90,
+      "hoursSavedPerUser": 7,
+      "hourlyRate": 50,
+      "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 14
     },
     "description": "Model Frase ROI by comparing research/briefing time saved against subscription cost.",
     "seoTitle": "Frase ROI Calculator",
@@ -274,13 +274,13 @@
     "title": "Agency AI Stack ROI Calculator",
     "tool": "agency",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
-      "setupHours": 8,
-      "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "users": 8,
+      "monthlyToolCost": 650,
+      "hoursSavedPerUser": 10,
+      "hourlyRate": 65,
+      "setupHours": 16,
+      "additionalMonthlyCost": 150,
+      "savingsPerOutput": 22
     },
     "description": "Calculate full agency stack ROI across multiple tools, users, and client output requirements.",
     "seoTitle": "Agency AI Stack ROI Calculator",
@@ -304,13 +304,13 @@
     "title": "Content Team AI Budget Calculator",
     "tool": "team",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
-      "hourlyRate": 45,
+      "users": 5,
+      "monthlyToolCost": 220,
+      "hoursSavedPerUser": 8,
+      "hourlyRate": 48,
       "setupHours": 8,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 14
     },
     "description": "Plan a realistic monthly AI budget for a content team and test best/base/worst-case outcomes.",
     "seoTitle": "Content Team AI Budget Calculator",
@@ -331,13 +331,13 @@
     "title": "AI Tool Break-even Calculator",
     "tool": "generic",
     "defaultInputs": {
-      "users": 3,
-      "monthlyToolCost": 99,
-      "hoursSavedPerUser": 12,
+      "users": 4,
+      "monthlyToolCost": 100,
+      "hoursSavedPerUser": 6,
       "hourlyRate": 45,
-      "setupHours": 8,
+      "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 15
+      "savingsPerOutput": 12
     },
     "description": "Find how many outputs or saved hours are required each month to break even on a tool purchase.",
     "seoTitle": "AI Tool Break-even Calculator",
@@ -372,12 +372,12 @@
     ],
     "defaultInputs": {
       "users": 4,
-      "monthlyToolCost": 29,
+      "monthlyToolCost": 80,
       "hoursSavedPerUser": 6,
       "hourlyRate": 45,
-      "setupHours": 5,
+      "setupHours": 4,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 11
     }
   },
   {
@@ -398,13 +398,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
+      "users": 6,
+      "monthlyToolCost": 72,
+      "hoursSavedPerUser": 5,
+      "hourlyRate": 42,
       "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 10
     }
   },
   {
@@ -426,10 +426,10 @@
     ],
     "defaultInputs": {
       "users": 4,
-      "monthlyToolCost": 29,
+      "monthlyToolCost": 60,
       "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "hourlyRate": 40,
+      "setupHours": 4,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 12
     }
@@ -452,13 +452,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
+      "users": 3,
+      "monthlyToolCost": 90,
+      "hoursSavedPerUser": 7,
+      "hourlyRate": 50,
       "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 13
     }
   },
   {
@@ -480,12 +480,12 @@
     ],
     "defaultInputs": {
       "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "monthlyToolCost": 80,
+      "hoursSavedPerUser": 9,
+      "hourlyRate": 70,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 20
     }
   },
   {
@@ -506,13 +506,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "users": 6,
+      "monthlyToolCost": 114,
+      "hoursSavedPerUser": 7,
+      "hourlyRate": 75,
+      "setupHours": 4,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 18
     }
   },
   {
@@ -533,13 +533,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "users": 3,
+      "monthlyToolCost": 90,
+      "hoursSavedPerUser": 8,
+      "hourlyRate": 55,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 16
     }
   },
   {
@@ -560,13 +560,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "users": 3,
+      "monthlyToolCost": 87,
+      "hoursSavedPerUser": 8,
+      "hourlyRate": 55,
+      "setupHours": 6,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 16
     }
   },
   {
@@ -587,13 +587,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
+      "users": 6,
+      "monthlyToolCost": 300,
       "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
-      "setupHours": 5,
+      "hourlyRate": 60,
+      "setupHours": 10,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 15
     }
   },
   {
@@ -614,13 +614,13 @@
       }
     ],
     "defaultInputs": {
-      "users": 4,
-      "monthlyToolCost": 29,
-      "hoursSavedPerUser": 6,
-      "hourlyRate": 45,
+      "users": 3,
+      "monthlyToolCost": 129,
+      "hoursSavedPerUser": 7,
+      "hourlyRate": 52,
       "setupHours": 5,
       "additionalMonthlyCost": 0,
-      "savingsPerOutput": 12
+      "savingsPerOutput": 14
     }
   }
 ]

@@ -1,4 +1,186 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI ROI Toolkit App</title><style>body{font-family:Inter,system-ui;margin:0;background:#f7f7f7;color:#222}.wrap{max-width:980px;margin:0 auto;padding:24px}.box{background:#fff;border:1px solid #eaeaea;border-radius:14px;padding:16px;margin:12px 0}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}input,select{width:100%;padding:10px;border:1px solid #ddd;border-radius:10px;margin:6px 0 10px}.kpi{font-size:28px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.btn{background:#ff385c;color:#fff;border:none;border-radius:999px;padding:10px 14px;cursor:pointer} .muted{color:#666}@media(max-width:760px){.row{grid-template-columns:1fr}}</style></head><body><main class="wrap"><h1>AI ROI Toolkit App</h1><p class="muted">Offline, self-contained calculator for non-technical users.</p><div class="box"><label>Scenario</label><select id="scenario"><option value="0.7">Conservative</option><option value="1" selected>Base</option><option value="1.3">Aggressive</option></select><div class="row"><div><label>Team size</label><input id="team" type="number" value="5"><label>Monthly tool cost ($)</label><input id="cost" type="number" value="10"><label>Hours saved per person / month</label><input id="hours" type="number" value="8"></div><div><label>Hourly rate ($)</label><input id="rate" type="number" value="40"><label>Setup hours (one-time)</label><input id="setup" type="number" value="6"><label>Extra monthly costs ($)</label><input id="extra" type="number" value="0"></div></div><button class="btn" onclick="run()">Calculate</button></div><div class="grid"><div class="box"><div class="muted">Monthly savings</div><div class="kpi" id="savings">$0</div></div><div class="box"><div class="muted">ROI %</div><div class="kpi" id="roi">0%</div></div><div class="box"><div class="muted">Payback (months)</div><div class="kpi" id="payback">0</div></div></div><div class="box"><button class="btn" onclick="downloadMemo()">Download Decision Memo</button></div></main><script>function run(){const m=parseFloat(document.getElementById('scenario').value);const t=+team.value,c=+cost.value,h=+hours.value,r=+rate.value,s=+setup.value,e=+extra.value;const hs=h*m;const savings=(t*hs*r)-(c+e);const roi=(savings/Math.max(c+e,1))*100;const pay=(s*r)/Math.max(savings,1);document.getElementById('savings').innerText='$'+Math.round(savings);document.getElementById('roi').innerText=roi.toFixed(1)+'%';document.getElementById('payback').innerText=pay.toFixed(1);} function downloadMemo(){run();const txt=`AI ROI Decision Memo
-Monthly savings: ${document.getElementById('savings').innerText}
-ROI: ${document.getElementById('roi').innerText}
-Payback: ${document.getElementById('payback').innerText}`;const b=new Blob([txt],{type:'text/plain'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='roi-decision-memo.txt';a.click();URL.revokeObjectURL(u);} run();</script></body></html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Orko Labs — AI ROI Toolkit</title>
+  <style>
+    :root{--bg:#f7f7f7;--card:#fff;--text:#222;--muted:#6a6a6a;--line:#ebebeb;--brand:#ff385c;--ok:#0f766e}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    .hero{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 4px 24px rgba(0,0,0,.05)}
+    .hero h1{margin:0;font-size:40px;letter-spacing:-.02em;line-height:1.08}
+    .muted{color:var(--muted)}
+    .box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+    .kpi{font-size:30px;font-weight:700;line-height:1.1}
+    label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    input,select,textarea{width:100%;padding:11px;border:1px solid #d8d8d8;border-radius:10px;margin-bottom:12px;background:#fff}
+    .btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:10px 14px;cursor:pointer;font-weight:600}
+    .btn.secondary{background:#fff;color:#222;border:1px solid var(--line)}
+    .badge{display:inline-block;padding:4px 9px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--muted);margin-bottom:8px}
+    .success{padding:12px;border:1px solid #b8f1e8;background:#ecfdf9;color:var(--ok);border-radius:10px;margin-top:8px}
+    .notice{padding:12px;border:1px solid #ffd7df;background:#fff1f4;color:#8c2336;border-radius:10px}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    ul{margin:8px 0 0 18px}
+    @media(max-width:760px){.row{grid-template-columns:1fr}.hero h1{font-size:32px}.wrap{padding:16px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Orko Labs · Toolkit Web App</div>
+      <h1>AI ROI Planner</h1>
+      <p class="muted">A simple, non-technical calculator to help you decide if an AI tool is worth paying for.</p>
+    </section>
+
+    <section class="box">
+      <h3 style="margin-top:0">1) Enter your numbers</h3>
+      <p class="muted">If you are unsure, start with the suggested defaults and update once you have real data.</p>
+
+      <label>Use-case preset</label>
+      <select id="preset" onchange="applyPreset()">
+        <option value="custom">Custom</option>
+        <option value="solo">Solo Creator</option>
+        <option value="freelancer">Freelancer</option>
+        <option value="team" selected>Small Marketing Team</option>
+        <option value="agency">Agency Content Team</option>
+      </select>
+
+      <label>Scenario</label>
+      <select id="scenario">
+        <option value="0.7">Conservative</option>
+        <option value="1" selected>Base case</option>
+        <option value="1.3">Aggressive</option>
+      </select>
+
+      <div class="row">
+        <div>
+          <label>Team size</label><input id="team" type="number" value="5" />
+          <label>Monthly tool cost ($)</label><input id="cost" type="number" value="10" />
+          <label>Hours saved per person / month</label><input id="hours" type="number" value="8" />
+        </div>
+        <div>
+          <label>Hourly rate ($)</label><input id="rate" type="number" value="40" />
+          <label>Setup hours (one-time)</label><input id="setup" type="number" value="6" />
+          <label>Extra monthly costs ($)</label><input id="extra" type="number" value="0" />
+        </div>
+      </div>
+
+      <button class="btn" onclick="run()">Calculate ROI</button>
+    </section>
+
+    <section class="grid">
+      <div class="box"><div class="muted">Estimated monthly savings</div><div class="kpi" id="savings">$0</div></div>
+      <div class="box"><div class="muted">Estimated ROI</div><div class="kpi" id="roi">0%</div></div>
+      <div class="box"><div class="muted">Estimated payback</div><div class="kpi" id="payback">0 mo</div></div>
+    </section>
+
+    <section class="box">
+      <h3 style="margin-top:0">2) Recommendation</h3>
+      <div id="recommendation" class="success">Run calculation to see recommendation.</div>
+      <p class="muted" id="explain" style="margin-top:8px"></p>
+    </section>
+
+    <section class="box">
+      <h3 style="margin-top:0">3) Export your decision memo</h3>
+      <p class="muted">This creates a professional summary you can share with your team or stakeholders.</p>
+      <label>Decision owner</label>
+      <input id="owner" placeholder="e.g., Marketing Lead" />
+      <label>Primary goal</label>
+      <input id="goal" placeholder="e.g., reduce content production time" />
+      <div class="actions">
+        <button class="btn" onclick="downloadMemo()">Download Memo (.txt)</button>
+        <button class="btn secondary" onclick="copyMemo()">Copy Memo</button>
+      </div>
+    </section>
+
+    <section class="notice">
+      Tip: Start with conservative assumptions. If ROI still looks strong, your decision is usually safer.
+    </section>
+  </main>
+
+  <script>
+    const presets = {
+      solo: { team: 1, cost: 10, hours: 6, rate: 35, setup: 3, extra: 0 },
+      freelancer: { team: 1, cost: 10, hours: 8, rate: 50, setup: 4, extra: 0 },
+      team: { team: 5, cost: 10, hours: 8, rate: 40, setup: 6, extra: 0 },
+      agency: { team: 8, cost: 10, hours: 12, rate: 65, setup: 10, extra: 0 }
+    };
+
+    function applyPreset() {
+      const v = document.getElementById('preset').value;
+      if (v === 'custom') return;
+      const p = presets[v];
+      team.value = p.team; cost.value = p.cost; hours.value = p.hours;
+      rate.value = p.rate; setup.value = p.setup; extra.value = p.extra;
+      run();
+    }
+
+    function run() {
+      const m = parseFloat(document.getElementById('scenario').value);
+      const t = +team.value, c = +cost.value, h = +hours.value, r = +rate.value, s = +setup.value, e = +extra.value;
+      const hs = h * m;
+      const savings = (t * hs * r) - (c + e);
+      const roi = (savings / Math.max(c + e, 1)) * 100;
+      const pay = (s * r) / Math.max(savings, 1);
+
+      document.getElementById('savings').innerText = '$' + Math.round(savings);
+      document.getElementById('roi').innerText = roi.toFixed(1) + '%';
+      document.getElementById('payback').innerText = pay.toFixed(1) + ' mo';
+
+      const rec = document.getElementById('recommendation');
+      const explain = document.getElementById('explain');
+      if (roi > 120) {
+        rec.className = 'success';
+        rec.innerText = 'Strong ROI: likely worth adopting with a short pilot.';
+        explain.innerText = 'Your model suggests high monthly value relative to tool cost.';
+      } else if (roi > 30) {
+        rec.className = 'success';
+        rec.innerText = 'Promising ROI: run a 14-day pilot before scaling.';
+        explain.innerText = 'The economics look positive, but validate quality and adoption first.';
+      } else {
+        rec.className = 'notice';
+        rec.innerText = 'Low ROI: improve workflow assumptions before committing.';
+        explain.innerText = 'Try lowering cost, increasing usage, or improving team adoption.';
+      }
+    }
+
+    function buildMemo() {
+      run();
+      const dt = new Date().toISOString().slice(0,10);
+      const company = (document.getElementById('company') || {value:''}).value || 'N/A';
+      const owner = document.getElementById('owner').value || 'N/A';
+      const goal = document.getElementById('goal').value || 'N/A';
+      const scenarioText = document.getElementById('scenario').selectedOptions[0].text;
+      const savings = document.getElementById('savings').innerText;
+      const roi = document.getElementById('roi').innerText;
+      const payback = document.getElementById('payback').innerText;
+      const recommendation = document.getElementById('recommendation').innerText;
+      const explanation = document.getElementById('explain').innerText;
+
+      return `AI ROI DECISION MEMO\nDate: ${dt}\nOwner: ${owner}\nPrimary goal: ${goal}\nScenario: ${scenarioText}\n\nINPUTS\n- Team size: ${team.value}\n- Monthly tool cost: $${cost.value}\n- Hours saved per person/month: ${hours.value}\n- Hourly rate: $${rate.value}\n- Setup hours (one-time): ${setup.value}\n- Extra monthly costs: $${extra.value}\n\nRESULTS\n- Estimated monthly savings: ${savings}\n- Estimated ROI: ${roi}\n- Estimated payback period: ${payback}\n\nRECOMMENDATION\n${recommendation}\n${explanation}\n\nNEXT ACTIONS (14 DAYS)\n1) Run pilot with one use-case and fixed prompts\n2) Track time saved and quality outcomes weekly\n3) Recalculate with real data and decide to scale / hold / stop\n`;
+    }
+
+    function downloadMemo() {
+      const txt = buildMemo();
+      const b = new Blob([txt], { type: 'text/plain' });
+      const u = URL.createObjectURL(b);
+      const a = document.createElement('a');
+      a.href = u;
+      a.download = 'ai-roi-decision-memo.txt';
+      a.click();
+      URL.revokeObjectURL(u);
+    }
+
+    function copyMemo() {
+      navigator.clipboard.writeText(buildMemo());
+      alert('Decision memo copied to clipboard.');
+    }
+
+    run();
+  </script>
+</body>
+</html>

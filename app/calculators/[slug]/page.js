@@ -29,6 +29,7 @@ export default async function Page({ params }) {
       <div className="box">
         <strong>What this calculator helps with</strong>
         <p className="muted" style={{ marginTop: 8 }}>{c.description}</p>
+        {c.useCase && <p className="muted" style={{ marginTop: 8 }}><strong>Best use case:</strong> {c.useCase}</p>}
       </div>
 
       <CalculatorClient title={c.title} defaults={c.defaultInputs} />
@@ -36,6 +37,8 @@ export default async function Page({ params }) {
       <div className="box">
         <h3>How to use this result</h3>
         <p className="muted">Use this calculator as a decision-support tool. Validate assumptions with a 14-day pilot before scaling seats or annual plans.</p>
+        {c.watchouts && <p className="muted" style={{ marginTop: 8 }}><strong>Watch out for:</strong> {c.watchouts}</p>}
+        {c.reco && <p className="muted" style={{ marginTop: 8 }}><strong>Recommendation:</strong> {c.reco}</p>}
       </div>
 
       <div className="box">

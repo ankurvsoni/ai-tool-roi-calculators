@@ -24,7 +24,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "General-purpose calculator for evaluating whether writing tool subscriptions are worth it.",
+    "watchouts": "Overestimated time savings is the most common modeling mistake.",
+    "reco": "Start conservative, then update with real pilot data in 2 weeks."
   },
   {
     "slug": "chatgpt-team-cost-calculator",
@@ -51,7 +54,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Best for teams using AI for drafting, summarization, and research support across multiple departments.",
+    "watchouts": "Token usage can spike costs if prompts are unbounded. Set usage guidelines per team.",
+    "reco": "Great fit when your team uses it daily for repeat tasks. Pilot with clear prompt SOPs."
   },
   {
     "slug": "jasper-cost-calculator",
@@ -78,7 +84,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Ideal for marketing teams running campaign copy, landing pages, and repeat content workflows.",
+    "watchouts": "Higher seat costs require strong team adoption to realize ROI.",
+    "reco": "Best when you need structured templates and brand-consistent output at scale."
   },
   {
     "slug": "copy-ai-cost-calculator",
@@ -105,7 +114,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Good for rapid ideation and first drafts for small teams and founders.",
+    "watchouts": "Quality may vary for nuanced brand tone; editing standards still needed.",
+    "reco": "Strong option when speed matters more than deep workflow customization."
   },
   {
     "slug": "writesonic-cost-calculator",
@@ -132,7 +144,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Useful for mixed SEO + marketing content pipelines.",
+    "watchouts": "ROI depends on whether teams use advanced features consistently.",
+    "reco": "Good value if you produce high monthly content volume across channels."
   },
   {
     "slug": "rytr-cost-calculator",
@@ -159,7 +174,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Budget-friendly choice for solo creators and freelancers.",
+    "watchouts": "May hit quality ceiling on complex long-form content.",
+    "reco": "Great starter option when cost control is your top priority."
   },
   {
     "slug": "grammarly-team-roi-calculator",
@@ -186,7 +204,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Best for editing-heavy teams that need cleaner final drafts and fewer revision loops.",
+    "watchouts": "Not a full drafting solution by itself.",
+    "reco": "Use as a quality-control layer to reduce publish delays."
   },
   {
     "slug": "surfer-seo-roi-calculator",
@@ -213,7 +234,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Designed for SEO teams optimizing articles for rankings and consistency.",
+    "watchouts": "ROI depends on whether optimization recommendations are actually implemented.",
+    "reco": "Best when paired with strong editorial workflow and search intent discipline."
   },
   {
     "slug": "frase-roi-calculator",
@@ -240,7 +264,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "Strong for research briefing and faster article preparation.",
+    "watchouts": "Brief quality still depends on topic selection and human judgment.",
+    "reco": "Great for teams spending too much time on pre-writing research."
   },
   {
     "slug": "agency-ai-stack-roi-calculator",
@@ -267,7 +294,10 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "useCase": "For agencies managing multiple tools, seats, and client deliverables.",
+    "watchouts": "Tool overlap can create hidden spend and workflow confusion.",
+    "reco": "Use this to rationalize stack and remove low-value subscriptions."
   },
   {
     "slug": "content-team-ai-budget-calculator",

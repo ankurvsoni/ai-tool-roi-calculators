@@ -15,6 +15,6 @@ export default function Toolkit(){
     </ul>
     <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $10 and Access Toolkit</a>
   </div>
-  <div className="success">Secure access: after payment, you’ll be redirected to a verified download page.</div>
+  <div className="success">Secure access: after payment, you’ll get both a modern web app experience and ZIP download option.</div>
   </main>
 }

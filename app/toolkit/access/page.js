@@ -34,9 +34,10 @@ export default async function ToolkitAccessPage({ searchParams }) {
       <main className="wrap">
         <h1>Payment confirmed ✅</h1>
         <div className="success">Thanks! Your toolkit access is unlocked.</div>
-        <p style={{marginTop:12}}>
-          <a className="btn" href={`/toolkit/download?session_id=${encodeURIComponent(sessionId)}`}>Download AI ROI Toolkit</a>
-        </p>
+        <div style={{marginTop:12,display:'flex',gap:10,flexWrap:'wrap'}}>
+          <a className="btn" href={`/toolkit/app?session_id=${encodeURIComponent(sessionId)}`}>Open Toolkit Web App</a>
+          <a className="btn" href={`/toolkit/download?session_id=${encodeURIComponent(sessionId)}`}>Download AI ROI Toolkit (ZIP)</a>
+        </div>
       </main>
     );
   } catch (e) {

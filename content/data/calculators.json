@@ -322,5 +322,275 @@
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
     ]
+  },
+  {
+    "slug": "perplexity-roi-calculator",
+    "title": "Perplexity ROI Calculator",
+    "tool": "perplexity",
+    "description": "Estimate if Perplexity saves enough research time to justify monthly cost.",
+    "seoTitle": "Perplexity ROI Calculator",
+    "metaDescription": "Estimate if Perplexity saves enough research time to justify monthly cost.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "notion-ai-roi-calculator",
+    "title": "Notion AI ROI Calculator",
+    "tool": "notion",
+    "description": "Calculate ROI of Notion AI for docs, meeting notes, and team knowledge workflows.",
+    "seoTitle": "Notion AI ROI Calculator",
+    "metaDescription": "Calculate ROI of Notion AI for docs, meeting notes, and team knowledge workflows.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "canva-ai-roi-calculator",
+    "title": "Canva AI ROI Calculator",
+    "tool": "canva",
+    "description": "Estimate Canva AI ROI by modeling faster creative production and lower outsourcing spend.",
+    "seoTitle": "Canva AI ROI Calculator",
+    "metaDescription": "Estimate Canva AI ROI by modeling faster creative production and lower outsourcing spend.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "midjourney-roi-calculator",
+    "title": "Midjourney ROI Calculator",
+    "tool": "midjourney",
+    "description": "Model Midjourney ROI for design teams producing recurring visual assets.",
+    "seoTitle": "Midjourney ROI Calculator",
+    "metaDescription": "Model Midjourney ROI for design teams producing recurring visual assets.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "cursor-roi-calculator",
+    "title": "Cursor ROI Calculator",
+    "tool": "cursor",
+    "description": "Estimate coding productivity gains and payback for Cursor subscriptions.",
+    "seoTitle": "Cursor ROI Calculator",
+    "metaDescription": "Estimate coding productivity gains and payback for Cursor subscriptions.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "github-copilot-roi-calculator",
+    "title": "GitHub Copilot ROI Calculator",
+    "tool": "copilot",
+    "description": "Calculate Copilot ROI based on developer time saved and code output velocity.",
+    "seoTitle": "GitHub Copilot ROI Calculator",
+    "metaDescription": "Calculate Copilot ROI based on developer time saved and code output velocity.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "zapier-roi-calculator",
+    "title": "Zapier ROI Calculator",
+    "tool": "zapier",
+    "description": "Estimate automation ROI from manual task reduction and operations time saved.",
+    "seoTitle": "Zapier ROI Calculator",
+    "metaDescription": "Estimate automation ROI from manual task reduction and operations time saved.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "make-com-roi-calculator",
+    "title": "Make.com ROI Calculator",
+    "tool": "make",
+    "description": "Model automation ROI for operations teams using Make.com workflows.",
+    "seoTitle": "Make.com ROI Calculator",
+    "metaDescription": "Model automation ROI for operations teams using Make.com workflows.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "hubspot-ai-roi-calculator",
+    "title": "HubSpot AI ROI Calculator",
+    "tool": "hubspot",
+    "description": "Estimate HubSpot AI ROI for marketing and sales process efficiency.",
+    "seoTitle": "HubSpot AI ROI Calculator",
+    "metaDescription": "Estimate HubSpot AI ROI for marketing and sales process efficiency.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
+  },
+  {
+    "slug": "semrush-roi-calculator",
+    "title": "SEMrush ROI Calculator",
+    "tool": "semrush",
+    "description": "Calculate SEO tooling ROI from improved research speed and campaign outcomes.",
+    "seoTitle": "SEMrush ROI Calculator",
+    "metaDescription": "Calculate SEO tooling ROI from improved research speed and campaign outcomes.",
+    "faq": [
+      {
+        "q": "How accurate is this calculator?",
+        "a": "It is a planning model based on your inputs. Use conservative, base, and aggressive scenarios for safer decisions."
+      },
+      {
+        "q": "Should I choose annual billing immediately?",
+        "a": "Start with monthly assumptions, validate usage, then switch to annual only after consistent ROI."
+      }
+    ],
+    "defaultInputs": {
+      "users": 4,
+      "monthlyToolCost": 29,
+      "hoursSavedPerUser": 6,
+      "hourlyRate": 45,
+      "setupHours": 5,
+      "additionalMonthlyCost": 0,
+      "savingsPerOutput": 12
+    }
   }
 ]

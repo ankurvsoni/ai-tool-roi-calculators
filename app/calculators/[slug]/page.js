@@ -20,6 +20,8 @@ export default async function Page({ params }) {
   const c = getCalculator(params.slug);
   if (!c) return notFound();
   const related = getCalculators().filter((x) => x.slug !== c.slug).slice(0, 3);
+  const ex = c.defaultInputs;
+  const exSavings = (ex.users * ex.hoursSavedPerUser * ex.hourlyRate) - (ex.monthlyToolCost + ex.additionalMonthlyCost);
 
   return (
     <main className="wrap">
@@ -34,6 +36,11 @@ export default async function Page({ params }) {
       <div className="box">
         <h3>How to use this result</h3>
         <p className="muted">Use this calculator as a decision-support tool. Validate assumptions with a 14-day pilot before scaling seats or annual plans.</p>
+      </div>
+
+      <div className="box">
+        <h3>Example scenario</h3>
+        <p className="muted">For a team of <strong>{ex.users}</strong> at <strong>${ex.hourlyRate}/hr</strong>, saving <strong>{ex.hoursSavedPerUser} hours/person/month</strong> with tool cost <strong>${ex.monthlyToolCost}/month</strong>, estimated monthly savings are <strong>${Math.round(exSavings)}</strong>.</p>
       </div>
 
       <div className="box">

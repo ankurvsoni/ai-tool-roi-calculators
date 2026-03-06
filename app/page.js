@@ -12,7 +12,6 @@ export default function Home() {
         <div className="ctaRow">
           <Link className="btn" href="/pricing">See Pricing</Link>
           <Link className="btn" href="/toolkit">Get Toolkit</Link>
-          <Link className="btn" href="/toolkit">Get Toolkit</Link>
         </div>
       </section>
 

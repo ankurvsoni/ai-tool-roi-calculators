@@ -58,11 +58,12 @@ export default function CalculatorClient({ title, defaults }) {
         <div style={{display:'flex',gap:10,flexWrap:'wrap',marginTop:8}}>
           <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Get ROI Toolkit ($19)</a>
           <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay & Get ROI Toolkit ($19)</a>
+          <a className="btn" href="/pricing">See all options</a>
           <button className="btn" onClick={() => navigator.clipboard.writeText(summary)}>Copy result summary</button>
         </div>
       </div>
 
-      <div className="notice">Want a tailored next step? Request a free ROI review or get the toolkit for self-serve planning.</div>
+      <div className="notice">Want the full implementation pack? Get the toolkit and apply it to your workflow today.</div>
     </>
   );
 }

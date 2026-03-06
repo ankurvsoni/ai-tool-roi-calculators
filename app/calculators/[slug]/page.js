@@ -27,7 +27,10 @@ export default async function Page({ params }) {
     <main className="wrap">
       <Link href="/">← Back to all calculators</Link>
       <div className="box">
-        <strong>What this calculator helps with</strong>
+        <div style={{display:'flex',alignItems:'center',gap:8,flexWrap:'wrap'}}>
+          <strong>What this calculator helps with</strong>
+          <span className="badge" style={{background:c.toolColor}}>{c.toolLabel || 'Tool'}</span>
+        </div>
         <p className="muted" style={{ marginTop: 8 }}>{c.description}</p>
         {c.useCase && <p className="muted" style={{ marginTop: 8 }}><strong>Best use case:</strong> {c.useCase}</p>}
       </div>
@@ -65,7 +68,7 @@ export default async function Page({ params }) {
         </div>
       </div>
 
-      <p className="footer">No financial advice. Always verify current pricing and implementation costs.</p>
+      <p className="footer">No financial advice. Always verify current pricing and implementation costs. Product names are trademarks of their respective owners.</p>
     </main>
   );
 }

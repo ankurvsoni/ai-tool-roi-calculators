@@ -27,7 +27,9 @@
     ],
     "useCase": "General-purpose calculator for evaluating whether writing tool subscriptions are worth it.",
     "watchouts": "Overestimated time savings is the most common modeling mistake.",
-    "reco": "Start conservative, then update with real pilot data in 2 weeks."
+    "reco": "Start conservative, then update with real pilot data in 2 weeks.",
+    "toolLabel": "Writing",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "chatgpt-team-cost-calculator",
@@ -57,7 +59,9 @@
     ],
     "useCase": "Best for teams using AI for drafting, summarization, and research support across multiple departments.",
     "watchouts": "Token usage can spike costs if prompts are unbounded. Set usage guidelines per team.",
-    "reco": "Great fit when your team uses it daily for repeat tasks. Pilot with clear prompt SOPs."
+    "reco": "Great fit when your team uses it daily for repeat tasks. Pilot with clear prompt SOPs.",
+    "toolLabel": "Chatgpt",
+    "toolColor": "#e8f0fe"
   },
   {
     "slug": "jasper-cost-calculator",
@@ -87,7 +91,9 @@
     ],
     "useCase": "Ideal for marketing teams running campaign copy, landing pages, and repeat content workflows.",
     "watchouts": "Higher seat costs require strong team adoption to realize ROI.",
-    "reco": "Best when you need structured templates and brand-consistent output at scale."
+    "reco": "Best when you need structured templates and brand-consistent output at scale.",
+    "toolLabel": "Jasper",
+    "toolColor": "#fff1f4"
   },
   {
     "slug": "copy-ai-cost-calculator",
@@ -117,7 +123,9 @@
     ],
     "useCase": "Good for rapid ideation and first drafts for small teams and founders.",
     "watchouts": "Quality may vary for nuanced brand tone; editing standards still needed.",
-    "reco": "Strong option when speed matters more than deep workflow customization."
+    "reco": "Strong option when speed matters more than deep workflow customization.",
+    "toolLabel": "Copy Ai",
+    "toolColor": "#fff1f4"
   },
   {
     "slug": "writesonic-cost-calculator",
@@ -147,7 +155,9 @@
     ],
     "useCase": "Useful for mixed SEO + marketing content pipelines.",
     "watchouts": "ROI depends on whether teams use advanced features consistently.",
-    "reco": "Good value if you produce high monthly content volume across channels."
+    "reco": "Good value if you produce high monthly content volume across channels.",
+    "toolLabel": "Writesonic",
+    "toolColor": "#fff1f4"
   },
   {
     "slug": "rytr-cost-calculator",
@@ -177,7 +187,9 @@
     ],
     "useCase": "Budget-friendly choice for solo creators and freelancers.",
     "watchouts": "May hit quality ceiling on complex long-form content.",
-    "reco": "Great starter option when cost control is your top priority."
+    "reco": "Great starter option when cost control is your top priority.",
+    "toolLabel": "Rytr",
+    "toolColor": "#fff1f4"
   },
   {
     "slug": "grammarly-team-roi-calculator",
@@ -207,7 +219,9 @@
     ],
     "useCase": "Best for editing-heavy teams that need cleaner final drafts and fewer revision loops.",
     "watchouts": "Not a full drafting solution by itself.",
-    "reco": "Use as a quality-control layer to reduce publish delays."
+    "reco": "Use as a quality-control layer to reduce publish delays.",
+    "toolLabel": "Grammarly",
+    "toolColor": "#fff1f4"
   },
   {
     "slug": "surfer-seo-roi-calculator",
@@ -237,7 +251,9 @@
     ],
     "useCase": "Designed for SEO teams optimizing articles for rankings and consistency.",
     "watchouts": "ROI depends on whether optimization recommendations are actually implemented.",
-    "reco": "Best when paired with strong editorial workflow and search intent discipline."
+    "reco": "Best when paired with strong editorial workflow and search intent discipline.",
+    "toolLabel": "Surfer",
+    "toolColor": "#ecfdf5"
   },
   {
     "slug": "frase-roi-calculator",
@@ -267,7 +283,9 @@
     ],
     "useCase": "Strong for research briefing and faster article preparation.",
     "watchouts": "Brief quality still depends on topic selection and human judgment.",
-    "reco": "Great for teams spending too much time on pre-writing research."
+    "reco": "Great for teams spending too much time on pre-writing research.",
+    "toolLabel": "Frase",
+    "toolColor": "#ecfdf5"
   },
   {
     "slug": "agency-ai-stack-roi-calculator",
@@ -297,7 +315,9 @@
     ],
     "useCase": "For agencies managing multiple tools, seats, and client deliverables.",
     "watchouts": "Tool overlap can create hidden spend and workflow confusion.",
-    "reco": "Use this to rationalize stack and remove low-value subscriptions."
+    "reco": "Use this to rationalize stack and remove low-value subscriptions.",
+    "toolLabel": "Agency",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "content-team-ai-budget-calculator",
@@ -324,7 +344,9 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "toolLabel": "Team",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "ai-tool-break-even-calculator",
@@ -351,7 +373,9 @@
         "q": "Should I use annual pricing in this model?",
         "a": "Start with monthly cost assumptions first, then compare annual plans after validating usage."
       }
-    ]
+    ],
+    "toolLabel": "Generic",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "perplexity-roi-calculator",
@@ -378,7 +402,9 @@
       "setupHours": 4,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 11
-    }
+    },
+    "toolLabel": "Perplexity",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "notion-ai-roi-calculator",
@@ -405,7 +431,9 @@
       "setupHours": 5,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 10
-    }
+    },
+    "toolLabel": "Notion",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "canva-ai-roi-calculator",
@@ -432,7 +460,9 @@
       "setupHours": 4,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 12
-    }
+    },
+    "toolLabel": "Canva",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "midjourney-roi-calculator",
@@ -459,7 +489,9 @@
       "setupHours": 5,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 13
-    }
+    },
+    "toolLabel": "Midjourney",
+    "toolColor": "#f1f5f9"
   },
   {
     "slug": "cursor-roi-calculator",
@@ -486,7 +518,9 @@
       "setupHours": 6,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 20
-    }
+    },
+    "toolLabel": "Cursor",
+    "toolColor": "#e8f0fe"
   },
   {
     "slug": "github-copilot-roi-calculator",
@@ -513,7 +547,9 @@
       "setupHours": 4,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 18
-    }
+    },
+    "toolLabel": "Copilot",
+    "toolColor": "#e8f0fe"
   },
   {
     "slug": "zapier-roi-calculator",
@@ -540,7 +576,9 @@
       "setupHours": 6,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 16
-    }
+    },
+    "toolLabel": "Zapier",
+    "toolColor": "#fff7ed"
   },
   {
     "slug": "make-com-roi-calculator",
@@ -567,7 +605,9 @@
       "setupHours": 6,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 16
-    }
+    },
+    "toolLabel": "Make",
+    "toolColor": "#fff7ed"
   },
   {
     "slug": "hubspot-ai-roi-calculator",
@@ -594,7 +634,9 @@
       "setupHours": 10,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 15
-    }
+    },
+    "toolLabel": "Hubspot",
+    "toolColor": "#ecfdf5"
   },
   {
     "slug": "semrush-roi-calculator",
@@ -621,6 +663,8 @@
       "setupHours": 5,
       "additionalMonthlyCost": 0,
       "savingsPerOutput": 14
-    }
+    },
+    "toolLabel": "Semrush",
+    "toolColor": "#ecfdf5"
   }
 ]

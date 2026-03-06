@@ -22,7 +22,10 @@ export default function Home() {
           <Link key={c.slug} href={`/calculators/${c.slug}`} className="card">
             <h3>{c.title}</h3>
             <p className="muted">{c.description}</p>
-            <span className="badge">Calculator</span>
+            <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>
+              <span className="badge">Calculator</span>
+              <span className="badge" style={{background:c.toolColor}}>{c.toolLabel || 'Tool'}</span>
+            </div>
           </Link>
         ))}
       </div>

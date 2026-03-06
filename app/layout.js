@@ -21,10 +21,12 @@ export default function RootLayout({ children }) {
           <Link href="/" className="brand">Orko Labs ROI</Link>
           <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
             <Link href="/pricing">Pricing</Link>
-            <Link href="/audit">Audit</Link>
             <Link href="/toolkit">Toolkit</Link>
             <Link href="/methodology">Methodology</Link>
             <Link href="/disclaimer">Disclaimer</Link>
+            <Link href="/privacy">Privacy</Link>
+            <Link href="/terms">Terms</Link>
+            <Link href="/refund-policy">Refund</Link>
             <a href="https://www.orkolabs.com">All Projects</a>
           </div>
         </div>

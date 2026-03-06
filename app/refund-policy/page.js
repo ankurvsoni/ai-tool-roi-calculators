@@ -1,0 +1,3 @@
+export default function RefundPolicyPage(){
+  return <main className="wrap"><h1>Refund Policy</h1><div className="box"><p>Digital product purchases are generally non-refundable once access is delivered.</p><p>If you have a delivery or access issue, contact support@orkolabs.com and we will resolve it quickly.</p><p>If we cannot provide access as promised, we will issue an appropriate refund.</p></div></main>
+}

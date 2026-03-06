@@ -1,0 +1,3 @@
+export default function TermsPage(){
+  return <main className="wrap"><h1>Terms of Service</h1><div className="box"><p>This website provides decision-support tools and digital products. Content is informational and not financial, legal, or tax advice.</p><p>By purchasing, you receive access to the digital toolkit files and related updates as described on the product page.</p><p>You agree not to redistribute, resell, or republish toolkit files without written permission.</p><p>For support questions, contact support@orkolabs.com.</p></div></main>
+}

@@ -1,0 +1,3 @@
+export default function PrivacyPage(){
+  return <main className="wrap"><h1>Privacy Policy</h1><div className="box"><p>We collect only the information needed to deliver purchases and support customers (such as email and payment-related metadata from Stripe).</p><p>Payment data is handled by Stripe. We do not store full card details.</p><p>We may use analytics and advertising tools to understand traffic and improve site performance.</p><p>If you need data access or deletion, contact support@orkolabs.com.</p></div></main>
+}

@@ -15,6 +15,6 @@ export default function Toolkit(){
     </ul>
     <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $19 and Access Toolkit</a>
   </div>
-  <div className="success">Designed for immediate use: most buyers can run their first ROI scenario in under 15 minutes.</div>
+  <div className="success">Secure access: after payment, you’ll be redirected to a verified download page.</div>
   </main>
 }

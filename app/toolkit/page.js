@@ -5,13 +5,12 @@ export default function Toolkit(){
   <div className="box">
     <p className="muted">A practical toolkit to help you make confident AI software decisions without guesswork.</p>
     <ul>
-      <li>ROI calculator template (ready for Google Sheets)</li>
-      <li>Assumptions library with role-based benchmarks</li>
-      <li>Role presets (creator, freelancer, agency, growth team)</li>
-      <li>Implementation cost planner</li>
-      <li>KPI tracker template for weekly monitoring</li>
-      <li>Decision memo + stakeholder deck outline</li>
-      <li>14-day pilot checklist + quickstart guide</li>
+      <li>Downloadable self-contained Toolkit Web App (offline-friendly)</li>
+      <li>Guided inputs with role presets (creator, freelancer, team, agency)</li>
+      <li>Conservative / Base / Aggressive scenario mode</li>
+      <li>Built-in recommendation and plain-language explanations</li>
+      <li>Exportable decision memo for stakeholder sharing</li>
+      <li>Bonus template pack (planner, KPI tracker, checklist)</li>
     </ul>
     <a className="btn" href={PAYMENT_LINKS.toolkit} target="_blank" rel="noopener noreferrer">Pay $10 and Access Toolkit</a>
   </div>

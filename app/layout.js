@@ -2,8 +2,8 @@ import './globals.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Orko Labs ROI Calculators',
-  description: 'AI tool cost and ROI calculators with transparent assumptions.'
+  title: 'Orko Labs — AI Tool ROI Calculators',
+  description: 'AI tool cost and ROI calculators with transparent assumptions.',
 };
 
 export default function RootLayout({ children }) {

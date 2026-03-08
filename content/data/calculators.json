@@ -58,8 +58,8 @@
       }
     ],
     "useCase": "Best for teams using AI for drafting, summarization, and research support across multiple departments.",
-    "watchouts": "Token usage can spike costs if prompts are unbounded. Set usage guidelines per team.",
-    "reco": "Great fit when your team uses it daily for repeat tasks. Pilot with clear prompt SOPs.",
+    "watchouts": "Token usage can spike costs if usage rules are unbounded. Set clear team usage guidelines.",
+    "reco": "Great fit when your team uses it daily for repeat tasks. Pilot with clear workflow SOPs.",
     "toolLabel": "Chatgpt",
     "toolColor": "#e8f0fe"
   },
